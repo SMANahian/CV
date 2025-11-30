@@ -7,3 +7,4 @@
 *.pdf
 !docs/*.pdf
 *.synctex.gz
+./*.pdf
