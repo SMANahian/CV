@@ -141,7 +141,7 @@
             {Bachelor of Science}{Massachusetts, USA}
 
     % \vspace{3mm}    
-    \textit{Relevant Courses:} Randomized Algorithms
+    \textit{Relevant Courses:} Distributed Computer Systems Engineering, Randomized Algorithms, Computation Structures, Fundamentals of Programming, Intro to Programming in C \& Assembly
   
         % \resumeSubheading
         %     {Dhaka College}{February 2023 -- October 2024}
@@ -170,7 +170,7 @@
 \section{Skills}
 \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-        \textbf{Programming/Scripting Languages}{: Python, C++, C, Rust, PHP, Java} \\
+        \textbf{Programming/Scripting Languages}{: Python, C++, C, Rust, PHP, Java, Go} \\
         \textbf{Technologies/Frameworks}{: Linux, GitHub, Flask, Verus, MongoDB} \\
         % \textbf{Technical Skills}{: Web Development, Graph Theory, Algorithmic Problem, Research} \\
         % \textbf{Soft Skills}{: Problem-Solving, Teaching, Teamwork} \\
@@ -193,9 +193,18 @@
             {Beneficial AI Foundation}{September 2025 -- Current}
             {Undergraduate Research Assistant}{Massachusetts, USA}
             \resumeItemListStart
+                \resumeItem{Developing AI tools to accelerate and automate formal verification workflows.}
                 \resumeItem{Contributing to Dalek-Lite, a Rust-based fork of dalek-cryptography/curve25519-dalek, aimed at the formal verification of elliptic-curve cryptography using Verus. GitHub: \texttt{\href{https://github.com/Beneficial-AI-Foundation/dalek-lite}{Beneficial-AI-Foundation/dalek-lite}}}
             \resumeItemListEnd
             
+        \resumeSubheading
+            {UC Irvine}{October 2023 -- August 2025}
+            {Research Collaborator --- Graph Theory (Internship)}{Irvine, California, USA \textit{(Remote)}}
+            \resumeItemListStart
+                \resumeItem{Conducted research under Prof. Wayne Hayes on graph theory, network analysis, and algorithm design.}
+                \resumeItem{Contributed to BLANT, a tool for computational network research; improved sampling and performance.}
+            \resumeItemListEnd
+
         \resumeSubheading
             {Gonitzoggo}{August 2023 -- July 2025}
             {Engineering Team Member}{Bangladesh}
@@ -210,65 +219,72 @@
 
 
 
-% ------------Research--------------
-\section{Research}
-    \resumeSubHeadingListStart
-    \resumeProjectHeading
-        {\textbf{BLANT Project (Under Prof. Wayne Hayes, UCI)}}{October 2023 -- August 2025}
-            \resumeItemListStart
-                % \resumeItem{Invented a new structure for the pre-computed table, allowing BLANT to work up to graphlets of size k=10. Developed a novel method to allow BLANT to estimate the actual counts rather than only the graphlet's concentrations (ratio of the count). Improved the sampling methods of BLANT. Currently working on publishing a confidential sub-project of BLANT. Details at : \texttt{\href{https://github.com/waynebhayes/BLANT}{https://github.com/waynebhayes/BLANT}}}
-                \resumeItem{Developed a method to estimate absolute graphlet counts from relative concentrations using star-motifs}
-                \resumeItem{Derived normalization formulas for two existing sampling methods: NBE (Node-Based Expansion) and EBE (Edge-Based Expansion), making them usable in practice with reduced statistical noise}
-                \resumeItem{Improved the $\alpha$-computation algorithm in MCMC sampling, reducing runtime from hours to seconds for k=8}
-            \resumeItemListEnd
-    \resumeSubHeadingListEnd
+% ------------Research Publications--------------
+\section{Research Publications}
+\begin{itemize}[leftmargin=0.15in, label={$\vcenter{\hbox{\tiny$\bullet$}}$}]
+    \small
+    \item \textbf{S M A Nahian}, Joel Rarang, Wayne B. Hayes. ``Sampling Methods for Graphlet Estimation.'' \textit{PLOS ONE} (Under Review).
+    \item Wayne B. Hayes, Kimia Yazdani, \textbf{S M A Nahian}, Ezra Alemu. ``The Unseen Connections: Link Prediction via Pattern Matching in Large Networks.'' \textit{Cell Press Patterns} (Under Review). \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5579862}{[SSRN]}
+\end{itemize}
+
+% ------------Old Research Section (commented out)--------------
+% \section{Research}
+%     \resumeSubHeadingListStart
+%     \resumeProjectHeading
+%         {\textbf{BLANT Project (Under Prof. Wayne Hayes, UCI)}}{October 2023 -- August 2025}
+%             \resumeItemListStart
+%                 \resumeItem{Developed a method to estimate absolute graphlet counts from relative concentrations using star-motifs}
+%                 \resumeItem{Derived normalization formulas for two existing sampling methods: NBE (Node-Based Expansion) and EBE (Edge-Based Expansion), making them usable in practice with reduced statistical noise}
+%                 \resumeItem{Improved the $\alpha$-computation algorithm in MCMC sampling, reducing runtime from hours to seconds for k=8}
+%             \resumeItemListEnd
+%     \resumeSubHeadingListEnd
 
 
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-            {\textbf{Chess Analyzer} $|$ \emph{Python, Chess}}{June 2025}
-            \resumeItemListStart
-                \resumeItem{Built a tool that analyzes a player's games to detect recurring opening mistakes and allows replaying those positions to practice and avoid repeating them}
-            \resumeItemListEnd
-        % \vspace{-4mm}
-        % \resumeProjectHeading
-        %     {\textbf{ssehC} $|$ \emph{C, Chess}}{September 2024}
-        %     \resumeItemListStart
-        %         \resumeItem{Created a chess engine as a hobby and learning project to dive into the world of chess AI}
-        %     \resumeItemListEnd
-        \vspace{-4mm}
-        \resumeProjectHeading
-            {\textbf{CP Calendar} $|$ \emph{Python, Flask}}{February 2022}
-            \resumeItemListStart
-                \resumeItem{Created a customizable online calendar stream to organize and filter competitive programming contests from a huge number of online judges, helping users track and plan participation, thus staying organized and efficient}
-            \resumeItemListEnd
+% %-----------PROJECTS-----------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%         \resumeProjectHeading
+%             {\textbf{Chess Analyzer} $|$ \emph{Python, Chess}}{June 2025}
+%             \resumeItemListStart
+%                 \resumeItem{Built a tool that analyzes a player's games to detect recurring opening mistakes and allows replaying those positions to practice and avoid repeating them}
+%             \resumeItemListEnd
+%         % \vspace{-4mm}
+%         % \resumeProjectHeading
+%         %     {\textbf{ssehC} $|$ \emph{C, Chess}}{September 2024}
+%         %     \resumeItemListStart
+%         %         \resumeItem{Created a chess engine as a hobby and learning project to dive into the world of chess AI}
+%         %     \resumeItemListEnd
+%         \vspace{-4mm}
+%         \resumeProjectHeading
+%             {\textbf{CP Calendar} $|$ \emph{Python, Flask}}{February 2022}
+%             \resumeItemListStart
+%                 \resumeItem{Created a customizable online calendar stream to organize and filter competitive programming contests from a huge number of online judges, helping users track and plan participation, thus staying organized and efficient}
+%             \resumeItemListEnd
 
-        % \vspace{-3mm}
-    \resumeSubHeadingListEnd
+%         % \vspace{-3mm}
+%     \resumeSubHeadingListEnd
 
 
-% -----------Activities
-\section{Extracurricular Activities}
-    \resumeSubHeadingListStart
-        \resumeSubheading
-            {Mentor and Academic Team Member}{2022 -- Current}
-            {Bangladesh Mathematical Olympiad and Gonitkonya - Bangladesh Girls' Mathematics Foundation}{}
-        \resumeSubheading
-            {Founder}{2024}
-            {NEMOP - Year Long Online Mathematics Training Program For Bangladeshi Students}{}
-        % \resumeSubheading
-        %     {Co-Founder}{2024}
-        %     {Thonk \& Code - An initiative to train the next generation of programmers for BdOI}{}
-        % \resumeSubheading
-        %     {Web Developer and Content Writer}{2023 -- 2024}
-        %     {Somantoral Magazine - A mathematics-based online magazine for the youth of Bangladesh}{}
-        % \resumeSubheading
-        %     {Assistant Secretary}{2020 -- 2022}
-        %     {Shamsul Hoque Khan School and College Science Club}{}
-    \resumeSubHeadingListEnd    
+% % -----------Activities
+% \section{Extracurricular Activities}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading
+%             {Mentor and Academic Team Member}{2022 -- Current}
+%             {Bangladesh Mathematical Olympiad and Gonitkonya - Bangladesh Girls' Mathematics Foundation}{}
+%         \resumeSubheading
+%             {Founder}{2024}
+%             {NEMOP - Year Long Online Mathematics Training Program For Bangladeshi Students}{}
+%         % \resumeSubheading
+%         %     {Co-Founder}{2024}
+%         %     {Thonk \& Code - An initiative to train the next generation of programmers for BdOI}{}
+%         % \resumeSubheading
+%         %     {Web Developer and Content Writer}{2023 -- 2024}
+%         %     {Somantoral Magazine - A mathematics-based online magazine for the youth of Bangladesh}{}
+%         % \resumeSubheading
+%         %     {Assistant Secretary}{2020 -- 2022}
+%         %     {Shamsul Hoque Khan School and College Science Club}{}
+%     \resumeSubHeadingListEnd    
 
 
 
